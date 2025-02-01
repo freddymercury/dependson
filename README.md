@@ -33,3 +33,100 @@
 
    ```bash
    npm install --save-dev typescript ts-node @types/node
+
+
+## Sample Output
+```
+
+> dependson@1.0.0 start
+> ts-node index.ts ../eliza/agent **/node_modules/**, **/jest*, *test*
+
+File: ../eliza/agent/src/index.ts
+Dependencies:
+  @elizaos/adapter-pglite
+  @elizaos/adapter-postgres
+  @elizaos/adapter-redis
+  @elizaos/adapter-sqlite
+  @elizaos/adapter-supabase
+  @elizaos/client-auto
+  @elizaos/client-discord
+  @elizaos/client-farcaster
+  @elizaos/client-lens
+  @elizaos/client-slack
+  @elizaos/client-telegram
+  @elizaos/client-twitter
+  @elizaos/plugin-reclaim
+  @elizaos/client-direct
+  @elizaos/plugin-primus
+  @elizaos/core
+  @elizaos/plugin-0g
+  @elizaos/plugin-devschool
+  ../userDataEvaluator
+  ../userDataProvider
+  @elizaos/plugin-bootstrap
+  @elizaos/plugin-goat
+  @elizaos/plugin-intiface
+  @elizaos/plugin-3d-generation
+  @elizaos/plugin-abstract
+  @elizaos/plugin-allora
+  @elizaos/plugin-aptos
+  @elizaos/plugin-arthera
+  @elizaos/plugin-avail
+  @elizaos/plugin-avalanche
+  @elizaos/plugin-binance
+  @elizaos/plugin-coinbase
+  @elizaos/plugin-coinmarketcap
+  @elizaos/plugin-coingecko
+  @elizaos/plugin-conflux
+  @elizaos/plugin-cosmos
+  @elizaos/plugin-cronoszkevm
+  @elizaos/plugin-echochambers
+  @elizaos/plugin-evm
+  @elizaos/plugin-flow
+  @elizaos/plugin-fuel
+  @elizaos/plugin-genlayer
+  @elizaos/plugin-image-generation
+  @elizaos/plugin-lensNetwork
+  @elizaos/plugin-multiversx
+  @elizaos/plugin-near
+  @elizaos/plugin-nft-generation
+  @elizaos/plugin-node
+  @elizaos/plugin-obsidian
+  @elizaos/plugin-sgx
+  @elizaos/plugin-solana
+  @elizaos/plugin-solana-agentkit
+  @elizaos/plugin-autonome
+  @elizaos/plugin-story
+  @elizaos/plugin-sui
+  @elizaos/plugin-tee
+  @elizaos/plugin-tee-log
+  @elizaos/plugin-tee-marlin
+  @elizaos/plugin-ton
+  @elizaos/plugin-web-search
+  @elizaos/plugin-giphy
+  @elizaos/plugin-letzai
+  @elizaos/plugin-thirdweb
+  @elizaos/plugin-hyperliquid
+  @elizaos/plugin-zksync-era
+  @elizaos/plugin-opacity
+  @elizaos/plugin-open-weather
+  @elizaos/plugin-stargaze
+  @elizaos/plugin-akash
+  @elizaos/plugin-quai
+  better-sqlite3
+  fs
+  net
+  path
+  url
+  yargs
+  @elizaos/plugin-dominos
+--------------------
+File: ../eliza/agent/userDataEvaluator.ts
+Dependencies:
+  @elizaos/core
+--------------------
+File: ../eliza/agent/userDataProvider.ts
+Dependencies:
+  @elizaos/core
+--------------------
+```
