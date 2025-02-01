@@ -1,6 +1,6 @@
-# Dependency Detective
+# DependsOn
 
-**Dependency Detective** is a Node.js tool written in TypeScript that scans a specified root directory (and its subdirectories) for JavaScript (.js) and TypeScript (.ts) files, extracts their import dependencies (supporting both ES6 imports and CommonJS `require` calls), and prints a list of these dependencies. It also allows you to ignore files or directories using flexible, comma-separated glob patterns.
+**DependsOn** is a Node.js tool written in TypeScript that scans a specified root directory (and its subdirectories) for JavaScript (.js) and TypeScript (.ts) files, extracts their import dependencies (supporting both ES6 imports and CommonJS `require` calls), and prints a list of these dependencies. It also allows you to ignore files or directories using flexible, comma-separated glob patterns.
 
 ## Features
 
