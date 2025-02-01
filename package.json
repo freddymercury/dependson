@@ -1,0 +1,35 @@
+{
+  "name": "dependson",
+  "version": "1.0.0",
+  "description": "A tool for scanning JS and TS files to extract import dependencies.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "ts-node index.ts --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddymercury/dependson.git"
+  },
+  "keywords": [
+    "dependency",
+    "imports",
+    "typescript",
+    "node",
+    "scanner"
+  ],
+  "author": "freddymercury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddymercury/dependson/issues"
+  },
+  "homepage": "https://github.com/freddymercury/dependson#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.74",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
